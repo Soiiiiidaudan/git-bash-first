@@ -1,1 +1,4 @@
-exports.meats = ["meo", "chuot", "cho", "chim", "lon", "ga"]
+// export a callback
+exports.meats = () =>{
+    return ["meo", "chuot", "cho", "chim", "lon", "ga"]
+}    

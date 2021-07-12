@@ -11,6 +11,6 @@ const lo_nuong ={
     }
 }
 
-var hon_hop_thit = require('./meat').meats
+var hon_hop_thit = require('./meat').meats()
 
 lo_nuong.nuong(hon_hop_thit)
