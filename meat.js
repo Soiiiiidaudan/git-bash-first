@@ -1,0 +1,1 @@
+exports.meats = ["meo", "chuot", "cho", "chim", "lon", "ga"]
