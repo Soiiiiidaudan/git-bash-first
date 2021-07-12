@@ -1,0 +1,20 @@
+{
+  "name": "node_module_practice",
+  "version": "1.0.0",
+  "description": "fooling around with node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soiiiiidaudan/git-bash-first.git"
+  },
+  "author": "Soi dau dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soiiiiidaudan/git-bash-first/issues"
+  },
+  "homepage": "https://github.com/Soiiiiidaudan/git-bash-first#readme"
+}
