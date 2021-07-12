@@ -11,6 +11,13 @@ const lo_nuong ={
     }
 }
 
-var hon_hop_thit = require('./meat').meats()
+require('./meat').meats(1, (hon_hop_thit, err)=>{
+    if(err != null){
+        console.log(err)
+    }
+    else{
+        lo_nuong.nuong(hon_hop_thit)
+    }
+})
 
-lo_nuong.nuong(hon_hop_thit)
+
